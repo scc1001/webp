@@ -1,0 +1,41 @@
+header{
+    background-color:rgb(211, 211, 211);
+}
+nav{
+    background-color:rgb(82, 104, 177);
+}
+section {
+    background-color: rgb(238, 86, 86);
+    padding:20px;
+}
+article {
+    background-color: #69F;
+    float:left;
+    width:70%;
+    height:500px;
+}
+aside {
+    background-color: rgb(255, 216, 62);
+    float:right;
+    width:30%;
+    height:500px;
+}
+footer {
+    background-color: #F6F;
+    height:30px;
+    clear:both;
+}
+@media (max-width:480px){
+    *{
+        padding:10px;
+    }
+    article {
+        float:none;
+        width:auto;
+        height:auto;
+    }
+    aside {
+        float:none;
+        width:auto;
+    }
+}
