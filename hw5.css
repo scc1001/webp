@@ -1,0 +1,63 @@
+*{
+    background-color: rgb(212, 209, 205);
+}
+.Station{
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    left: 60px;
+    height: 25px;
+    text-align: left;
+    padding: 15px;
+    border: 3px rgb(72, 29, 9) solid;
+    
+    margin-right: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    background-color:rgb(117, 117, 115)
+}
+.Arrow {
+    position: relative;
+    display: inline-block;
+    text-align:center;
+    font-size: 20px;
+    top:10px;
+    margin-left: 110px;
+    margin-top: 20px;  
+    width: 0; 
+    height: 0; 
+    border-width: 30px; 
+    border-style: solid; 
+    border-color: transparent transparent transparent rgb(188, 149, 117);
+  }
+  #Price{
+    position: absolute;
+    font-size: 14px;
+    top: 29px;
+    left: 400px;
+  }
+  #Start{
+    position: absolute;
+    font-size: 15px;
+    top: 30px;
+    left: 50px;
+  }
+  #End{
+    position: absolute;
+    font-size: 15px;
+    top: 30px;
+    left: 200px;
+  }
+  #value{
+    position: absolute;
+    font-size: 15px;
+    top: 30px;
+    left: 350px;
+  }
+  #tt{
+    position: absolute;
+    font-size: 15px;
+    top: 30px;
+    left: 550px;
+  }
