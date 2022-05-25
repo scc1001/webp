@@ -4,6 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div className="logo">
+      <h1>CGU login</h1>
+    </div>
       <body>
       <label>Username</label>
             <input type="text" placeholder="Enter Username" required/><br/>
